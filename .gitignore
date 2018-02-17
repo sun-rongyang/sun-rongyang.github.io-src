@@ -1,0 +1,6 @@
+test/
+output/
+__pycache__/
+*.swp
+*.pyc
+*.pid
