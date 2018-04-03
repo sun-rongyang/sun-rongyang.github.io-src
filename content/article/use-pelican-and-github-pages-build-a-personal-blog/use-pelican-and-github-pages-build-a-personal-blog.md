@@ -62,4 +62,4 @@ And the files structure may like this:
 |-- pelicanconf.py
 `-- publishconf.py
 ```
-where `content` contains markdown files which you want to post and `output`
+where `content` contains markdown files which you want to post and `output` is the root folder for your site.
