@@ -1,6 +1,6 @@
 Title: Use Pelican and Github Pages Build a Personal Blog
-Data: 2018-03-30 22:42
-Category: Python, Web
+Date: 2018-03-30 22:42
+Category: Python
 Tags: python, web, markdown
 
 ## Installation
@@ -62,4 +62,6 @@ And the files structure may like this:
 |-- pelicanconf.py
 `-- publishconf.py
 ```
-where `content` contains markdown files which you want to post and `output` is the root folder for your site.
+where `content` contains markdown files which you want to post and `output` is the root folder for your site. The `develop_server.sh` script can start/stop a temporary web server for development. The main configuration file is `pelicanconf.py`.
+
+## Write blog article
