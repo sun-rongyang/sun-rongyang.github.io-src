@@ -64,5 +64,21 @@ And the files structure may like this:
 where `content` contains markdown files which you want to post and `output` is the root folder for your site. The `develop_server.sh` script can start/stop a temporary web server for development. The main configuration file is `pelicanconf.py`.
 
 ## Write blog article
-You can write down your blog using `markdown` or `rst` language
+You can write down your blog using `markdown` or `rst`. If you use `rst`, you need not do any thing. But if you use `markdown` like me, you need install related python package first.
+```
+pip3 install markdown
+```
+Then you can write down your first blog. Create a `markdown` file called `my-frist-post.md` in `content` folder.
+```
+touch content/my-first-post.md
+```
+We need write the first few lines under a special format, because Pelican will read these lines to set metadata of the article. The file head may seems like
+```
+Title: My First Post
+Date: 2018-04-06 23:09
+Category: Web
+Tags: python, web, markdown
 
+## Blabla
+Bla bla bla
+```
