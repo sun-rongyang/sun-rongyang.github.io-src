@@ -4,7 +4,7 @@ Category: Python
 Tags: python, web, markdown
 
 ## Installation
-[Pelican](https://blog.getpelican.com) is a static site generator, written in Python. Because Pelican is a python package at pypi ([link](https://pypi.python.org/pypi/pelican/)), we can easily use `pip` to install it.
+[Pelican](https://blog.getpelican.com) is a static site generator, written by Python. Because Pelican is a python package at pypi ([link](https://pypi.python.org/pypi/pelican/)), we can easily use `pip` to install it.
 ```shell
 pip3 install pelican
 ```
@@ -78,7 +78,9 @@ Title: My First Post
 Date: 2018-04-06 23:09
 Category: Web
 Tags: python, web, markdown
-
-## Blabla
-Bla bla bla
 ```
+Following these lines, you can write the content of your blog article. When you finish your blog article, you can generate the `html` files of your website using
+```
+make html
+```
+And you can also use the `develop_server.sh` script to start/stop a temporary http server.
