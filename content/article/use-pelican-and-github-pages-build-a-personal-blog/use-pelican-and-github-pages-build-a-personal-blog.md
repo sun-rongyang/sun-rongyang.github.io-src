@@ -83,4 +83,6 @@ Following these lines, you can write the content of your blog article. When you 
 ```
 make html
 ```
-And you can also use the `develop_server.sh` script to start/stop a temporary http server.
+And you can also use the `develop_server.sh` script to start/stop a temporary http server. 
+
+## Use themes
