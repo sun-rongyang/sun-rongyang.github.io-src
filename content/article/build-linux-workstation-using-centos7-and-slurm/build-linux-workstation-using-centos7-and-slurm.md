@@ -3,7 +3,10 @@ Date: 2018-04-10 15:45
 Category: HPC
 Tags: Linux, HPC, CentOS, slurm
 
-In this post, I will show you how to build a Linux development environment for high performance computation(HPC) on a workstation. In my early post, I have shown how to build a Linux HPC cluster based CentOS 7 and Slurm (although this serries is still updating :)~ ). For the workstation case, it's much
+In this post, I will show you how to build a Linux development environment for high performance computation(HPC) on a workstation. In my early post, I have shown how to build a Linux HPC cluster based CentOS 7 and Slurm (although this serries is still updating :)~ ). For the workstation case, it's much easy because you only have to consider one node.
+
+## Basic configuration
+### Network configuration
 ```
 vi /etc/sysconfig/network-scripts/ifcfg-NET_INTERFACE_NAME
 
@@ -35,6 +38,7 @@ ping -c4 bing.com
 shutdown -r now
 ```
 
+### Build basic software enviroment
 ```
 yum update -y
 shutdown -r now
