@@ -2,6 +2,7 @@ Title: Use Pelican and Github Pages Build a Personal Blog
 Date: 2018-03-30 22:42
 Category: Python
 Tags: python, web, markdown
+Status: draft
 
 ## Installation
 [Pelican](https://blog.getpelican.com) is a static site generator, written by Python. Because Pelican is a python package at pypi ([link](https://pypi.python.org/pypi/pelican/)), we can easily use `pip` to install it.
