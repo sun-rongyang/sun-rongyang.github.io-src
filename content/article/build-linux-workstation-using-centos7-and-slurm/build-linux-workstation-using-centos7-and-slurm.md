@@ -77,3 +77,19 @@ python3.6
 ```
 
 install Intel compiler family
+
+install hdf5
+```
+wget https://support.hdfgroup.org/ftp/HDF5/current/src/hdf5-1.10.1.tar
+tar xf hdf5-1.10.1.tar
+mkdir hdf5-build
+cd hdf5-build/
+../hdf5-1.10.1/configure --prefix=/usr/local --enable-cxx --enable-fortran
+make
+make test
+make install
+```
+
+## Slurm configuration
+### Install Slurm
+
