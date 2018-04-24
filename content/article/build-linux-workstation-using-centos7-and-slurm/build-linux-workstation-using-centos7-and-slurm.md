@@ -92,4 +92,5 @@ make install
 
 ## Slurm configuration
 ### Install Slurm
+download Slurm
 
