@@ -6,16 +6,19 @@ Status: draft
 
 
 ## Basic configuration
+Set some custom usage for bash.
 ```bash
 yum install wget
 wget -o /etc/profile.d/bashrc_global.sh https://raw.githubusercontent.com/sun-rongyang/dotfiles/master/OnLinux/general/bashrc_global.sh
 bash
 ```
 
+Use SSH key to log in the server.
 ```bash
 vi ./ssh/authorized_keys
 ```
 
+Change SSH port and forbidden root password log in.
 ```bash
 vi /etc/ssh/sshd_config
 ```
