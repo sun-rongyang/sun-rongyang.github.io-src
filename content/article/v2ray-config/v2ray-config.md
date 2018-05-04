@@ -22,13 +22,15 @@ Change SSH port and forbidden root password log in.
 ```bash
 vi /etc/ssh/sshd_config
 ```
+change the following item.
 ```
 ...
 
-Port SSH_PORT
+Port SSH_PORT   # change ssh port
 
 ...
 
+# forbid root password log in.
 Match User root
     PasswordAuthentication no
 ```
